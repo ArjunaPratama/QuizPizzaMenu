@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC953F5E1F999487005C9FA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC953F5D1F999487005C9FA2 /* AppDelegate.swift */; };
+		DC953F601F999487005C9FA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC953F5F1F999487005C9FA2 /* ViewController.swift */; };
+		DC953F631F999487005C9FA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC953F611F999487005C9FA2 /* Main.storyboard */; };
+		DC953F651F999487005C9FA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC953F641F999487005C9FA2 /* Assets.xcassets */; };
+		DC953F681F999487005C9FA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC953F661F999487005C9FA2 /* LaunchScreen.storyboard */; };
+		DC953F731F999487005C9FA2 /* QuizPizzaMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC953F721F999487005C9FA2 /* QuizPizzaMenuTests.swift */; };
+		DC953F7E1F999487005C9FA2 /* QuizPizzaMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC953F7D1F999487005C9FA2 /* QuizPizzaMenuUITests.swift */; };
+		DC953F8C1F9995C4005C9FA2 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC953F8B1F9995C4005C9FA2 /* MenuTableViewCell.swift */; };
+		DC953F8E1F9995DD005C9FA2 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC953F8D1F9995DD005C9FA2 /* MenuTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC953F6F1F999487005C9FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC953F521F999487005C9FA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC953F591F999487005C9FA2;
+			remoteInfo = QuizPizzaMenu;
+		};
+		DC953F7A1F999487005C9FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC953F521F999487005C9FA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC953F591F999487005C9FA2;
+			remoteInfo = QuizPizzaMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC953F5A1F999487005C9FA2 /* QuizPizzaMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizPizzaMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC953F5D1F999487005C9FA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC953F5F1F999487005C9FA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC953F621F999487005C9FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC953F641F999487005C9FA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC953F671F999487005C9FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC953F691F999487005C9FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC953F6E1F999487005C9FA2 /* QuizPizzaMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizPizzaMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC953F721F999487005C9FA2 /* QuizPizzaMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPizzaMenuTests.swift; sourceTree = "<group>"; };
+		DC953F741F999487005C9FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC953F791F999487005C9FA2 /* QuizPizzaMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizPizzaMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC953F7D1F999487005C9FA2 /* QuizPizzaMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizPizzaMenuUITests.swift; sourceTree = "<group>"; };
+		DC953F7F1F999487005C9FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC953F8B1F9995C4005C9FA2 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		DC953F8D1F9995DD005C9FA2 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC953F571F999487005C9FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC953F6B1F999487005C9FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC953F761F999487005C9FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC953F511F999487005C9FA2 = {
+			isa = PBXGroup;
+			children = (
+				DC953F5C1F999487005C9FA2 /* QuizPizzaMenu */,
+				DC953F711F999487005C9FA2 /* QuizPizzaMenuTests */,
+				DC953F7C1F999487005C9FA2 /* QuizPizzaMenuUITests */,
+				DC953F5B1F999487005C9FA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC953F5B1F999487005C9FA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC953F5A1F999487005C9FA2 /* QuizPizzaMenu.app */,
+				DC953F6E1F999487005C9FA2 /* QuizPizzaMenuTests.xctest */,
+				DC953F791F999487005C9FA2 /* QuizPizzaMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC953F5C1F999487005C9FA2 /* QuizPizzaMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DC953F5D1F999487005C9FA2 /* AppDelegate.swift */,
+				DC953F5F1F999487005C9FA2 /* ViewController.swift */,
+				DC953F611F999487005C9FA2 /* Main.storyboard */,
+				DC953F641F999487005C9FA2 /* Assets.xcassets */,
+				DC953F661F999487005C9FA2 /* LaunchScreen.storyboard */,
+				DC953F691F999487005C9FA2 /* Info.plist */,
+				DC953F8B1F9995C4005C9FA2 /* MenuTableViewCell.swift */,
+				DC953F8D1F9995DD005C9FA2 /* MenuTableViewController.swift */,
+			);
+			path = QuizPizzaMenu;
+			sourceTree = "<group>";
+		};
+		DC953F711F999487005C9FA2 /* QuizPizzaMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC953F721F999487005C9FA2 /* QuizPizzaMenuTests.swift */,
+				DC953F741F999487005C9FA2 /* Info.plist */,
+			);
+			path = QuizPizzaMenuTests;
+			sourceTree = "<group>";
+		};
+		DC953F7C1F999487005C9FA2 /* QuizPizzaMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC953F7D1F999487005C9FA2 /* QuizPizzaMenuUITests.swift */,
+				DC953F7F1F999487005C9FA2 /* Info.plist */,
+			);
+			path = QuizPizzaMenuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC953F591F999487005C9FA2 /* QuizPizzaMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC953F821F999487005C9FA2 /* Build configuration list for PBXNativeTarget "QuizPizzaMenu" */;
+			buildPhases = (
+				DC953F561F999487005C9FA2 /* Sources */,
+				DC953F571F999487005C9FA2 /* Frameworks */,
+				DC953F581F999487005C9FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuizPizzaMenu;
+			productName = QuizPizzaMenu;
+			productReference = DC953F5A1F999487005C9FA2 /* QuizPizzaMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC953F6D1F999487005C9FA2 /* QuizPizzaMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC953F851F999487005C9FA2 /* Build configuration list for PBXNativeTarget "QuizPizzaMenuTests" */;
+			buildPhases = (
+				DC953F6A1F999487005C9FA2 /* Sources */,
+				DC953F6B1F999487005C9FA2 /* Frameworks */,
+				DC953F6C1F999487005C9FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC953F701F999487005C9FA2 /* PBXTargetDependency */,
+			);
+			name = QuizPizzaMenuTests;
+			productName = QuizPizzaMenuTests;
+			productReference = DC953F6E1F999487005C9FA2 /* QuizPizzaMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC953F781F999487005C9FA2 /* QuizPizzaMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC953F881F999487005C9FA2 /* Build configuration list for PBXNativeTarget "QuizPizzaMenuUITests" */;
+			buildPhases = (
+				DC953F751F999487005C9FA2 /* Sources */,
+				DC953F761F999487005C9FA2 /* Frameworks */,
+				DC953F771F999487005C9FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC953F7B1F999487005C9FA2 /* PBXTargetDependency */,
+			);
+			name = QuizPizzaMenuUITests;
+			productName = QuizPizzaMenuUITests;
+			productReference = DC953F791F999487005C9FA2 /* QuizPizzaMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC953F521F999487005C9FA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Arjuna;
+				TargetAttributes = {
+					DC953F591F999487005C9FA2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					DC953F6D1F999487005C9FA2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC953F591F999487005C9FA2;
+					};
+					DC953F781F999487005C9FA2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC953F591F999487005C9FA2;
+					};
+				};
+			};
+			buildConfigurationList = DC953F551F999487005C9FA2 /* Build configuration list for PBXProject "QuizPizzaMenu" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC953F511F999487005C9FA2;
+			productRefGroup = DC953F5B1F999487005C9FA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC953F591F999487005C9FA2 /* QuizPizzaMenu */,
+				DC953F6D1F999487005C9FA2 /* QuizPizzaMenuTests */,
+				DC953F781F999487005C9FA2 /* QuizPizzaMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC953F581F999487005C9FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC953F681F999487005C9FA2 /* LaunchScreen.storyboard in Resources */,
+				DC953F651F999487005C9FA2 /* Assets.xcassets in Resources */,
+				DC953F631F999487005C9FA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC953F6C1F999487005C9FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC953F771F999487005C9FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC953F561F999487005C9FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC953F8E1F9995DD005C9FA2 /* MenuTableViewController.swift in Sources */,
+				DC953F601F999487005C9FA2 /* ViewController.swift in Sources */,
+				DC953F5E1F999487005C9FA2 /* AppDelegate.swift in Sources */,
+				DC953F8C1F9995C4005C9FA2 /* MenuTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC953F6A1F999487005C9FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC953F731F999487005C9FA2 /* QuizPizzaMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC953F751F999487005C9FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC953F7E1F999487005C9FA2 /* QuizPizzaMenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC953F701F999487005C9FA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC953F591F999487005C9FA2 /* QuizPizzaMenu */;
+			targetProxy = DC953F6F1F999487005C9FA2 /* PBXContainerItemProxy */;
+		};
+		DC953F7B1F999487005C9FA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC953F591F999487005C9FA2 /* QuizPizzaMenu */;
+			targetProxy = DC953F7A1F999487005C9FA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC953F611F999487005C9FA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC953F621F999487005C9FA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC953F661F999487005C9FA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC953F671F999487005C9FA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC953F801F999487005C9FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC953F811F999487005C9FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC953F831F999487005C9FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuizPizzaMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developermuslim.QuizPizzaMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC953F841F999487005C9FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuizPizzaMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developermuslim.QuizPizzaMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC953F861F999487005C9FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuizPizzaMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developermuslim.QuizPizzaMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizPizzaMenu.app/QuizPizzaMenu";
+			};
+			name = Debug;
+		};
+		DC953F871F999487005C9FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuizPizzaMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developermuslim.QuizPizzaMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuizPizzaMenu.app/QuizPizzaMenu";
+			};
+			name = Release;
+		};
+		DC953F891F999487005C9FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuizPizzaMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developermuslim.QuizPizzaMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuizPizzaMenu;
+			};
+			name = Debug;
+		};
+		DC953F8A1F999487005C9FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuizPizzaMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developermuslim.QuizPizzaMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuizPizzaMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC953F551F999487005C9FA2 /* Build configuration list for PBXProject "QuizPizzaMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC953F801F999487005C9FA2 /* Debug */,
+				DC953F811F999487005C9FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC953F821F999487005C9FA2 /* Build configuration list for PBXNativeTarget "QuizPizzaMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC953F831F999487005C9FA2 /* Debug */,
+				DC953F841F999487005C9FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC953F851F999487005C9FA2 /* Build configuration list for PBXNativeTarget "QuizPizzaMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC953F861F999487005C9FA2 /* Debug */,
+				DC953F871F999487005C9FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC953F881F999487005C9FA2 /* Build configuration list for PBXNativeTarget "QuizPizzaMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC953F891F999487005C9FA2 /* Debug */,
+				DC953F8A1F999487005C9FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC953F521F999487005C9FA2 /* Project object */;
+}
